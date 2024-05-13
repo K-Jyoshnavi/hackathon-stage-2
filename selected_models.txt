@@ -1,0 +1,21 @@
+Model Name: RandomForestClassifier
+	model_name: Random Forest Classifier
+	min_trees: 10
+	max_trees: 30
+	feature_sampling_statergy: Default
+	min_depth: 20
+	max_depth: 30
+	min_samples_per_leaf_min_value: 5
+	min_samples_per_leaf_max_value: 50
+	parallelism: 0
+
+Model Name: DecisionTreeClassifier
+	model_name: Decision Tree
+	min_depth: 4
+	max_depth: 7
+	use_gini: False
+	use_entropy: True
+	min_samples_per_leaf: [12, 6]
+	use_best: True
+	use_random: False
+

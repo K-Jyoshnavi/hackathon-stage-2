@@ -1,0 +1,6 @@
+{
+    "prediction_type": "Classification",
+    "target": "species",
+    "type": "classifiation",
+    "partitioning": true
+}

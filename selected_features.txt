@@ -1,0 +1,20 @@
+Feature Name: sepal_length
+	feature_name: sepal_length
+	feature_variable_type: numerical
+	feature_details: {'numerical_handling': 'Keep as regular numerical feature', 'rescaling': 'No rescaling', 'make_derived_feats': False, 'missing_values': 'Impute', 'impute_with': 'Average of values'}
+
+Feature Name: sepal_width
+	feature_name: sepal_width
+	feature_variable_type: numerical
+	feature_details: {'numerical_handling': 'Keep as regular numerical feature', 'rescaling': 'No rescaling', 'make_derived_feats': False, 'missing_values': 'Impute', 'impute_with': 'Average of values'}
+
+Feature Name: petal_length
+	feature_name: petal_length
+	feature_variable_type: numerical
+	feature_details: {'numerical_handling': 'Keep as regular numerical feature', 'rescaling': 'No rescaling', 'make_derived_feats': False, 'missing_values': 'Impute', 'impute_with': 'Average of values'}
+
+Feature Name: species
+	feature_name: species
+	feature_variable_type: text
+	feature_details: {'text_handling': 'Tokenize and hash', 'hash_columns': 0}
+
